@@ -5,6 +5,7 @@
     <title>assistant</title>
   </head>
   <body>
+    <h1>you can ask me anything</h1>
     <form action="" method="post">
        <input type="text" name="" placeholder="ask anything...">
        <input type="sbmit" name="s" value="ask">
