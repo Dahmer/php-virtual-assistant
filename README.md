@@ -1,5 +1,5 @@
 # php-virtual-assistant
-NOTE: THIS WILL BE AVAILABLE FROM 1ST BETA WILL BE AVAILABLE FROM 1ST MAY
+NOTE:1ST BETA WILL BE AVAILABLE FROM 1ST MAY OF NEXT MONTH
 
 
 php assistant to ask basic questions and to search on google can be used for websites basic operations
