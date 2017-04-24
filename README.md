@@ -1,14 +1,16 @@
 # php-virtual-assistant
 NOTE:COMPLETE CODE WILL BE AVAILABLE FROM 1ST MAY 2017....
 
-AN ALGORITHM THAT IS SMART AND TAUGHT SELF AWARE....
+AN ALGORITHM THAT IS SMART AND 'programmed SELF AWARE'....
 
-only used for question and its answer not for conversation yet....
+only used for question and its answer not for conversation yet.
+Conversational algorithm will be available in next version.
+which will use data base .
 
-php assistant to ask basic questions and to search on google can be used for websites basic operations
 
 
-gi
+php assistant to ask basic questions and to search on google can be used for websites basic operations.
+
 This will include if else conditional algorithm for answering programmed defined questions.
 Its an artificial intelligent technique used in siri and cortana ,
 to add more and more commands easily and fool other by thoughtful decision making process the more the commands the more it become a being.
@@ -16,7 +18,7 @@ to add more and more commands easily and fool other by thoughtful decision makin
 you can easily add and edit its commands just download it first and start using.
 
 
-
+..........................................................>>>>>>>>>>>>>>>>
 1:MECHANISM......>
 
 Add always questionnaire word like what, who, when, in the parent node along with if in between its curly braces and others in child nodes of it, one parent node and the other are brothers..
