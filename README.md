@@ -1,5 +1,4 @@
-# php-virtual-assistant
-NOTE:COMPLETE CODE WILL BE AVAILABLE FROM 1ST MAY 2017....
+# php-virtual-assistant framework.
 
 AN ALGORITHM THAT IS SMART AND 'programmed SELF AWARE'....
 
