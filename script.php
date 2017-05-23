@@ -41,26 +41,34 @@ $quest = $_POST['question'];
         if (preg_match('/ your | Your /', $quest)) {
           if (preg_match('/ name | Name /', $quest)) {
             echo "<div>My name is candy</div>";
-          }
+          }//what is your [name] node
         }//what is [your] node
       }//what [is] node
-    }//where node
+    }
+    //where node
     elseif (preg_match('/where |Where |WHERE /', $quest)) {
 
-    }//when parent node
+    }
+    //when parent node
     elseif (preg_match('/when |When |WHEN /', $quest)) {
 
-    }//who parent node
+    }
+    //who parent node
     elseif (preg_match('/who |Who |WHO /', $quest)) {
-
-    }//how parent node
+      if (preg_match('/are |Are /', $quest)) {
+        if (preg_match('/ you| You/', $quest)) {
+          echo "<div>I am virtual assistat designed by unas ishtiaq, How can I help you ?</div>";
+        }//who are [you] node
+      }//who [are] node
+    }
+    //how parent node
     elseif (preg_match('/how |How |HOW /', $quest)) {
       if (preg_match('/are |Are |ARE /', $quest)) {
           if (preg_match('/you |You |YOU /')) {
             echo "I am fine, What about you?";
-          }
-        }//how are [you] node
-      }//how [are] node
+          }//how are [you] node
+        }//how [are] node
+      }
 
 
 
