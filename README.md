@@ -17,7 +17,7 @@ to add more and more commands easily and fool other by thoughtful decision makin
 you can easily add and edit its commands just download it first and start using.
 
 
-..........................................................>>>>>>>>>>>>>>>>
+
 1:MECHANISM......>
 
 Add always questionnaire word like what, who, when, in the parent node along with if in between its curly braces and others in child nodes of it, one parent node and the other are brothers..
@@ -56,8 +56,7 @@ elseif(preg_match('/is /', $quest)){
   }
 }
 
-...................................................................
-./RIGHT ONE...
+RIGHT ONE...
 
 if(preg_match('/what /', $quest)){
   if(preg_match('/is /', $quest)){
