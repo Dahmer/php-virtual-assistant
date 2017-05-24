@@ -139,3 +139,6 @@ ADD NEW PARENT NODE IF IT DON'T EXIST
 
 
 GOOD LUCK ......
+
+SOME INFOGRAPHICS..
+![php-virtual assistant info graphic](https://cloud.githubusercontent.com/assets/19790956/26409574/5b92cc2a-40ba-11e7-822c-232362d043a0.png)
