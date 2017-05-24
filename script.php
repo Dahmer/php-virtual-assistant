@@ -15,60 +15,69 @@
         width: 80%;
         padding: 30px;
         margin: 10px;
+        font-size: 40px;
       }
     </style>
   </head>
-  <body><div>
+  <body>
+    <div>
     <h1>you can ask me anything</h1>
-    <form action="" method="post">
+    <form action="script.php" method="post">
        <input type="text" name="question" placeholder="ask anything...">
        <input type="submit" name="s" value="ask">
-    </form></div>
+    </form>
+  </div>
   </body>
 </html>
 
 <?php
-$submit = $_POST['s'];
-$quest = $_POST['question'];
-
-  if (isset($submit)) {
 
 
+  if (isset($_POST['s'])) {
 
-    //what parent node
-    if (preg_match('/what |What |WHAT /', $quest)) {
-      if (preg_match('/ is | Is | IS /', $quest)) {
-        if (preg_match('/ your | Your /', $quest)) {
-          if (preg_match('/ name | Name /', $quest)) {
+
+
+    //what PARENT NODE...
+    if (preg_match('/what |What |WHAT /', $_POST['question'])) {
+      if (preg_match('/ is | Is | IS /', $_POST['question'])) {
+        if (preg_match('/ your | Your /', $_POST['question'])) {
+          if (preg_match('/ name | Name /', $_POST['question'])) {
             echo "<div>My name is candy</div>";
           }//what is your [name] node
         }//what is [your] node
       }//what [is] node
-    }
-    //where node
-    elseif (preg_match('/where |Where |WHERE /', $quest)) {
+    }//[what] node
+    //where PARENT NODE...
+    elseif (preg_match('/where |Where |WHERE /', $_POST['question'])) {
 
-    }
-    //when parent node
-    elseif (preg_match('/when |When |WHEN /', $quest)) {
+    }//[where] node
+    //when PARENT NODE...
+    elseif (preg_match('/when |When |WHEN /', $_POST['question'])) {
 
-    }
-    //who parent node
-    elseif (preg_match('/who |Who |WHO /', $quest)) {
-      if (preg_match('/are |Are /', $quest)) {
-        if (preg_match('/ you| You/', $quest)) {
+    }//[when] node
+    //who PARENT NODE...
+    elseif (preg_match('/who |Who |WHO /', $_POST['question'])) {
+      if (preg_match('/are |Are /', $_POST['question'])) {
+        if (preg_match('/ you| You/', $_POST['question'])) {
           echo "<div>I am virtual assistat designed by unas ishtiaq, How can I help you ?</div>";
         }//who are [you] node
       }//who [are] node
-    }
-    //how parent node
-    elseif (preg_match('/how |How |HOW /', $quest)) {
-      if (preg_match('/are |Are |ARE /', $quest)) {
-          if (preg_match('/you |You |YOU /')) {
-            echo "I am fine, What about you?";
+      elseif (preg_match('/is /', $_POST['question'])) {
+          if (preg_match('/ your/', $_POST['question'])) {
+            if (preg_match('/ Father?| father?/', $_POST['question'])) {
+              echo "<div>paul dahmer is my father...</div>";
+            }
+          }//who is [your] node
+      }//who [is] node
+     }//[who] node
+    //how PARENT NODE...
+    elseif (preg_match('/how |How |HOW /', $_POST['question'])) {
+      if (preg_match('/are |Are |ARE /', $_POST['question'])) {
+          if (preg_match('/you |You |YOU /', $_POST['question'])) {
+            echo "<div>I am fine, What about you?</div>";
           }//how are [you] node
         }//how [are] node
-      }
+      }//[how] node
 
 
 
