@@ -1,26 +1,25 @@
 # php-virtual-assistant framework.
+SOON CONVERSATIONAL ALGORITHME WILL BE AVALABLE.
+
+
+AN ALGORITHM Defined php assistant....
+contribute to get chatbot abbilities
+and customer dealing using database algorithmes and memory and understanding techniques.
 
 
 
-AN ALGORITHM THAT IS SMART AND 'programmed SELF AWARE'....
 
 
-1:MECHANISM......>
 
+
+1:USAGE....
 Add always questionnaire word like what, who, when, in the parent node along with if in between its curly braces and others in child nodes of it, one parent node and the other are brothers..
-
-
 EXAMPLE...
 if(preg_match('/#what, who, when etc/', $quest)){//parent node
   if(preg_match('/is am are etc/', $quest)){//second bet of sentence in child node
     //other bets and child notes goes here    
   }else if brother parent node
 }else if brother parent node
-
-
-
-
-
 
 2:
 Be careful do not repeat the same chain node if get a messy code find for it first and than add a parent node.
@@ -51,9 +50,9 @@ if(preg_match('/what /', $quest)){
       if(preg_match('/name /', $quest)){
         echo "my name is your defined";
       }
-    }  elseif(preg_match('/time /', $quest)){
-        echo $date;
-      }
+    }
+    elseif(preg_match('/time /', $quest)){
+        echo $date;}
   }
 }
 
