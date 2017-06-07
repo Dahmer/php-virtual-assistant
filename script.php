@@ -47,6 +47,9 @@
         }//what is [your] node
       }//what [is] node
     }//[what] node
+    elseif(preg_match('/which |Which /', $_POST['question'])){
+    
+    }
     //where PARENT NODE...
     elseif (preg_match('/where |Where |WHERE /', $_POST['question'])) {
 
